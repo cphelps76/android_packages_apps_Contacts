@@ -66,6 +66,7 @@
             android:theme="@style/PeopleTheme"
             android:uiOptions="splitActionBarWhenNarrow"
             android:clearTaskOnLaunch="true"
+            android:enabled="@bool/config_enable_contact_inlauncher"
             android:launchMode="singleTop"
         >
             <intent-filter>
